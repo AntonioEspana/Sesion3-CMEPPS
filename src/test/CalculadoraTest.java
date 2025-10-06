@@ -49,9 +49,9 @@ class CalculadoraTest {
 		assertEquals(5, Calculadora.divide(15,3));
 	}
 	
-//	@Test
-//	void testDivideCero() {
-//		assertEquals(-1, Calculadora.divide(2,0));
-//	}
+	@Test
+	void testDivideCero() {
+		assertEquals(-1, Calculadora.divide(2,0));
+	}
 
 }
