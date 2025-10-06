@@ -42,11 +42,11 @@ public class Cuenta {
 	}
 
 	public void ingresar(int i) {
-		saldo = 500;
+		saldo += i;
 	}
 
 	public void retirar(int i) {
-		saldo = -500;
+		saldo -= i;
 	}
 
 }
